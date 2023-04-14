@@ -1,0 +1,24 @@
+void *car(FILE arq){
+  FILE *car;
+  car = fopen("car.txt","a+");
+  fclose(car);
+}
+
+void *num(FILE arq){
+  FILE *num;
+  num = fopen("num.txt","a+");
+  fclose(num);
+}
+
+void *esp(FILE arq){
+  FILE *esp;
+  esp = fopen("esp.txt","a+");
+  fclose(esp);
+}
+
+void *linhas(FILE arq, int cont){
+  FILE *lin;
+  lin = fopen("lin.txt","a");
+  fclose(lin);
+  
+}
